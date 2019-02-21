@@ -286,7 +286,7 @@ class Graph:
 
 class GrapherWindow(Gtk.Window):
 	def __init__(self):
-		Gtk.Window.__init__(self, title="Complext Graphing Tool")
+		Gtk.Window.__init__(self, title="Complex Graphing Tool")
 		box = Gtk.Box(spacing=2)
 		box.set_homogeneous(False)
 		self.connect("delete-event",Gtk.main_quit)
